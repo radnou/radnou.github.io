@@ -23,7 +23,7 @@ email: mossabelyradnoumane@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal and Devs tips
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://radnou.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: MRadnou
 github_username:  radnou
 linkedin_username: radnoumane
