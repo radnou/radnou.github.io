@@ -28,6 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 include : ['_page']
 
 
