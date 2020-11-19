@@ -28,7 +28,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
 include : ['_page']
 
 
@@ -36,7 +35,7 @@ include : ['_page']
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-# theme: "minimal-mistakes-jekyll"
+theme: "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" #  "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -278,7 +277,10 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -294,3 +296,11 @@ defaults:
       comments: true
       share: true
       related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true

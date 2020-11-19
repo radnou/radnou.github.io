@@ -269,7 +269,6 @@ DEPENDENCIES
   github-pages
   jekyll-data
   jekyll-feed (~> 0.12)
-  jekyll-sitemap
   minima (~> 2.5)
   minimal-mistakes-jekyll
   tzinfo (~> 1.2)
